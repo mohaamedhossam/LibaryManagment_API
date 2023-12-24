@@ -6,7 +6,7 @@ const borrowersRouter = require("./routes/borrowers");
 const transactionsRouter = require("./routes/transactions");
 
 const app = express();
-
+require("dotenv").config();
 app.use(bodyParser.json());
 
 sequelize
